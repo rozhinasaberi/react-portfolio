@@ -138,7 +138,7 @@ export default function App() {
           <div className="row g-4">
             <div className="col-lg-4 col-md-6">
               <div className="card project-card">
-              <img src="/shop.png" className="card-img-top" alt="Sticker Shop" />
+                <img src={shop} className="card-img-top" alt="Sticker Shop" />
                 <div className="card-body">
                   <h5 className="card-title">Online Shop for Emily's Stickers</h5>
                   <p className="card-text">
@@ -162,9 +162,7 @@ export default function App() {
                     <br />
                     <strong>Outcome:</strong> Produced system documentation and functional specifications.
                   </p>
-                  <a href="/Project_07_FullPlan.pdf" className="btn btn-visitpage" download>
-                    Download Project
-                  </a>
+                  <a href="src/assets/Project_07_Full Plan_WomenInTech.docx.pdf" className="btn btn-visitpage">Download Project</a>
                 </div>
               </div>
             </div>
@@ -180,9 +178,7 @@ export default function App() {
                     <br />
                     <strong>Outcome:</strong> Delivered insights on pricing strategies using classification models.
                   </p>
-                  <a href="/ITEC4230Report.pdf" className="btn btn-visitpage" download>
-                    Download Report
-                  </a>
+                  <a href="src/assets/ITEC 4230 Report.pdf" className="btn btn-visitpage">Download Report</a>
                 </div>
               </div>
             </div>
