@@ -15,7 +15,7 @@ export default function App() {
         <nav className="navbar container">
           {/* Logo */}
           <a href="#home" className="navbar-brand d-flex align-items-center gap-2">
-          <img src="/logo.png" alt="Rojina Logo"  style={{ height: 40 }} />
+          <img src={logo} alt="Rojina Logo"  style={{ height: 40 }} />
             <span className="brand-text"></span>
           </a>
 
@@ -56,7 +56,7 @@ export default function App() {
       <section id="about" className="aboutsection about-stack">
         <div className="container">
           <div className="about-stack-inner">
-          <img src="/photo.png" alt="Headshot"  className="hero-photo" />
+          <img src={photo} alt="Headshot"  className="hero-photo" />
             <h1 className="hero-title">Rojina Saberi</h1>
             <p className="hero-subtitle">Software Developer and IT Analyst</p>
           </div>
