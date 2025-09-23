@@ -31,7 +31,7 @@ export default function App() {
             <div className="container">
               <h1>Welcome to My Portfolio</h1>
               <p className="lead">
-                Hi, I’m <strong>Rojina Saberi</strong>. I want to contribute my abilities to a forward thinking firm that values innovation, cooperation, and growth.
+                Hi, I'm <strong>Rojina Saberi</strong>. I want to contribute my abilities to a forward thinking firm that values innovation, cooperation, and growth.
               </p>
               <p className="mission"> My mission is to leverage technology to create impactful, efficient, and meaningful digital experiences.
 
@@ -133,7 +133,7 @@ export default function App() {
       <section id="projects" className="Projectsection">
         <div className="container">
           <h2 className="h2-heading">Delivered Projects</h2>
-          <p className="p-heading">Here are some of the projects I’ve worked on, with my role and the outcomes.</p>
+          <p className="p-heading">Here are some of the projects I've worked on, with my role and the outcomes.</p>
 
           <div className="row g-4">
             <div className="col-lg-4 col-md-6">
@@ -154,7 +154,7 @@ export default function App() {
            
             <div className="col-lg-4 col-md-6">
               <div className="card project-card">
-                <img src={bloodbank} className="card-img-top" alt="Blood Bank" />
+                <img src="/bloodbank.png" className="card-img-top" alt="Blood Bank" />
                 <div className="card-body">
                   <h5 className="card-title">Blood Bank Management System</h5>
                   <p className="card-text">
@@ -172,7 +172,7 @@ export default function App() {
             
             <div className="col-lg-4 col-md-6">
               <div className="card project-card">
-                <img src={price} className="card-img-top" alt="McDonald's Data Analysis" />
+                <img src="/price.png"className="card-img-top" alt="McDonald's Data Analysis" />
                 <div className="card-body">
                   <h5 className="card-title">Consumer Preferences & Pricing Strategies</h5>
                   <p className="card-text">
@@ -180,7 +180,7 @@ export default function App() {
                     <br />
                     <strong>Outcome:</strong> Delivered insights on pricing strategies using classification models.
                   </p>
-                  <a href="/ITEC4230Report.pdf" className="btn btn-visitpage" download>
+                    <a href="/ITEC4230Report.pdf" className="btn btn-visitpage" download>
                     Download Report
                   </a>
                 </div>
@@ -194,7 +194,7 @@ export default function App() {
       {/*Contact Form*/}
       <section id="form">
         <div className="container">
-          <h2 className="text-center mb-4">Let’s be in touch!</h2>
+          <h2 className="text-center mb-4">Let's be in touch!</h2>
           <form onSubmit={(e) => e.preventDefault()} className="mx-auto" style={{ maxWidth: 720 }}>
             <div className="mb-3">
               <label htmlFor="fname" className="form-label">First Name</label>
