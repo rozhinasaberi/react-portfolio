@@ -1,11 +1,11 @@
 import React from "react";
-import "./App.css";
+import "./App.css"; //import CSS
 
-
+// Main Application Component
 export default function App() {
   return (
     <>
-      {/* Navbar*/}
+      {/* Navbar--> fixed at top of page contain logo and links that scroll to each section*/}
       <header id="header" className="fixed-top">
         <nav className="navbar container">
           {/* Logo */}
@@ -23,8 +23,8 @@ export default function App() {
           </ul>
         </nav>
       </header>
-
-      {/*Headshot  */}
+      {/*welcome section --> mission statement and intro*/}
+      {/*Headshot + intro + aboutme button  */}
       <section id="home" className="home">
         <div className="container h-100">
           <div className="row h-100 hero-row">
@@ -47,7 +47,7 @@ export default function App() {
 
       </section>
 
-      {/* About */}
+      {/* About --> personal info and proffesional summary, displaying headshot and link to resume */}
       <section id="about" className="aboutsection about-stack">
         <div className="container">
           <div className="about-stack-inner">
@@ -79,7 +79,7 @@ export default function App() {
 
 
 
-      {/*Services  */}
+      {/*Services --> highlighted skills and descriptions */}
       <section id="services" className="Servicesection">
         <div className="container text-center">
           <h4 className="h4-heading">Services</h4>
@@ -129,7 +129,7 @@ export default function App() {
         </div>
       </section>
 
-      {/*Projects*/}
+      {/*Projects--> showcase projects with images and description , I developed images with AI Prompt: give e picture showcasing projects below*/}
       <section id="projects" className="Projectsection">
         <div className="container">
           <h2 className="h2-heading">Delivered Projects</h2>
