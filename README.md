@@ -1,12 +1,51 @@
-# React + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React and Vite to showcase skills, services, projects, and contact information.
 
-Currently, two official plugins are available:
+Live demo: [react-portfolio-git-main-rozhinasaberis-projects.vercel.app](https://react-portfolio-git-main-rozhinasaberis-projects.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What This Project Is About
 
-## Expanding the ESLint configuration
+This project is a modern frontend portfolio site designed to present professional background, technical skills, project work, and contact details in a single-page experience. It highlights both development projects and IT-focused experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is a **frontend portfolio web application**.
+
+## Sections Included
+
+- Home
+- About Me
+- Services
+- Projects
+- Contact
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Project Highlights
+
+- responsive single-page layout
+- custom branding and assets
+- project showcase cards
+- professional profile and resume link
+- contact form section
+
+## Main Files
+
+- `src/App.jsx` - main React component
+- `src/App.css` - core styling
+- `public/` - images and downloadable assets
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Author
+
+- Rojina Saberi
